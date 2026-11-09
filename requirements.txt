@@ -1,0 +1,20 @@
+# Crop Yield Prediction (SHO-LASSO) - Python dependencies
+# Tested with Python 3.11. Install with:  pip install -r requirements.txt
+
+# --- Core data / ML ---
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==3.2.0
+
+# --- Notebooks (to regenerate results in notebooks/) ---
+jupyterlab==4.5.8
+notebook==7.5.7
+nbconvert==7.17.1
+nbclient==0.11.0
+ipykernel==7.3.0
+
+# --- Optional: only needed to (re)build the dataset / humanize the papers ---
+requests==2.33.1      # fetch_*.py  -> downloads raw source data
+python-docx==1.2.0    # *_humanize.py -> rewrites the .docx papers

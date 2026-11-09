@@ -1,0 +1,57 @@
+# Virtual environment
+cropenv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model checkpoints & large binaries
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+*.joblib
+
+# Large datasets
+*.csv
+*.parquet
+*.zip
+data/
+# Virtual environments
+cropenv/
+venv/
+.venv/
+env/
+
+# Python cache & compiled binaries
+__pycache__/
+*.py[cod]
+*.dll
+*.so
+*.dylib
+
+# Stata dataset files (all exceed GitHub limits)
+*.dta
+
+# Large reproducibility package & raw data
+RR_IND_2025_488/
+raw/
+data/
+
+# CSV / processed datasets
+*.csv
+*.parquet
+*.feather
+*.zip
+*.tar.gz
+
+# Model weights
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
